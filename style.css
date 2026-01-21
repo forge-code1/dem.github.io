@@ -71,7 +71,8 @@ p {
 /* Цитаты */
 blockquote,
 p.quote {
-  font-family: 'Mountains of Christmas', cursive;
+  src: url('Fonts/pudelinka.tff') format('truetype');
+  p.zz font-family: 'Mountains of Christmas', cursive;
   color: #f8f8c4;
   background: rgba(0, 0, 0, 0.3);
   border-left: 5px solid #ffd700;
