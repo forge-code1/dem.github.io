@@ -1,7 +1,6 @@
-
 /* Основной стиль страницы */
 body {
-  background: linear-gradient(135deg, #8b0000 0%, #ff4500 30%, #ffd700 100%); /* Красный → оранжевый → золотой */
+  background: linear-gradient(135deg, #4b0082 0%, #8a2be2 30%, #0000ff 100%); /* Индиго → фиолетовый → синий */
   background-attachment: fixed;
   color: #fff;
   font-family: 'Mountains of Christmas', cursive, sans-serif;
