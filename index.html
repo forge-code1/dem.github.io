@@ -123,9 +123,7 @@
       <p>Исходное сообщение: <span class="result">${m}</span></p>
       <p>Шифротекст C = m<sup>e</sup> mod n = ${m}<sup>${e}</sup> mod ${n} = <span class="result">${C}</span></p>
       <p>Расшифровка M = C<sup>d</sup> mod n = ${C}<sup>${d}</sup> mod ${n} = <span class="result">${M}</span></p>
-      ${M === m ? '<p style="color:green;">✅ Сообщение успешно восстановлено!</p>' : '<p style="color:red;">❌ Ошибка расшифровки!</p>'}
-    `;
-  }
+
 
   // Запуск при загрузке
   window.onload = () => processMessage();
