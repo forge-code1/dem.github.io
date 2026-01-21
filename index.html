@@ -110,7 +110,7 @@
     const e = 7;
     const d = 43;
 
-    if (isNaN(m)  m < 0  m >= n) {
+    if (isNaN(m) || m < 0 || m >= n) {
       document.getElementById('output').innerHTML = 
         '<p style="color:red;">Ошибка: m должно быть целым числом от 0 до 76!</p>';
       return;
@@ -130,7 +130,6 @@
   // Запуск при загрузке
   window.onload = () => processMessage();
 </script>
-  
   <p>Иконки:
 <a target="_blank" href="https://icons8.com/icon/Te05gF2gRJfm/christmas-gift">New Year</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
   </p>
