@@ -72,7 +72,7 @@ p {
 blockquote,
 p.quote {
   src: url('Fonts/pudelinka.tff') format('truetype');
-  p.zz font-family: 'Mountains of Christmas', cursive;
+  p.zz font-family: 'Pudelinka' font-size: 24px) ;
   color: #f8f8c4;
   background: rgba(0, 0, 0, 0.3);
   border-left: 5px solid #ffd700;
